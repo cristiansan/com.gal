@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- this is a comment -->
     <string name="app_name">github.app</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello GIT3!</string>
+    
+    <!-- string from activity main -->
+    <string name="tittle">Here is the Tittle!</string>
+    <string name="button1">Go to next screen</string>
+    <string name="button2">comming soon...</string>
+    <string name="button3">comming soon...</string>
+    
+    <!-- string from secundaty screen -->
+    
+    
 
 </resources>
