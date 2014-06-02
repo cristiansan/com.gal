@@ -21,28 +21,27 @@
         tools:ignore="UnknownIdInLayout" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/act_main_button_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button1"
-        android:layout_marginTop="72dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/act_main_button_middle"
+        android:layout_below="@+id/act_main_button_middle"
         android:text="@string/button2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/act_main_button_middle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:text="@string/button3" />
 
-    
+    <Button
+        android:id="@+id/act_main_button_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/act_main_button_middle"
+        android:layout_alignLeft="@+id/act_main_button_middle"
+        android:text="@string/btnFunction1" />
 
 </RelativeLayout>
