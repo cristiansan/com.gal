@@ -2,20 +2,20 @@
 <resources>
 
     <!-- this is a comment -->
-    <string name="app_name">github.app</string>
+    <string name="app_name">Hey Gal! :)</string>
     <string name="action_settings">Settings</string>
     
     <!-- string from activity main -->
     <string name="tittle">Here is the Tittle!</string>
     <string name="btnFunction1">Go to next screen</string>
     <string name="button2">comming soon...</string>
-    <string name="button3">comming soon...</string>
     
       <!-- string from activity function -->
     <string name="tittle_function">Function1</string>
     <string name="enter">Enter</string>
     <string name="hint_top">System text box</string>
     <string name="hint_bottom">User text box</string>
+    <string name="clock">Digital Clock</string>
     
     <!-- string from secundary screen -->
     

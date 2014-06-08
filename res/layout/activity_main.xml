@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="@string/button3" />
+        android:text="@string/button2" />
 
     <Button
         android:id="@+id/act_main_button_top"
