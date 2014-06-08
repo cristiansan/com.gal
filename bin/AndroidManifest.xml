@@ -25,7 +25,11 @@
          <activity
             android:name="github.app.FunctionActivity"
             android:label="@string/app_name" >
-                   
+             <intent-filter>
+                <action android:name="github.app.FunctionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
     </application>
 

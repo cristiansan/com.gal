@@ -18,7 +18,7 @@
         android:layout_marginTop="15dp"
         android:text="@string/tittle"
         android:textSize="30sp"
-        tools:ignore="UnknownIdInLayout" />
+         />
 
     <Button
         android:id="@+id/act_main_button_bottom"
@@ -42,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/act_main_button_middle"
         android:layout_alignLeft="@+id/act_main_button_middle"
+        android:onClick="btnFunction1"
         android:text="@string/btnFunction1" />
 
 </RelativeLayout>
